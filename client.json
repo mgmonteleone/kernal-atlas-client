@@ -1,0 +1,17 @@
+{
+  "client_id": "https://mgmonteleone.github.io/kernal-atlas-client/client.json",
+  "client_name": "Kernal (MongoDB internal)",
+  "client_uri": "https://kernal-one.agentic-platform.staging.corp.mongodb.com",
+  "redirect_uris": [
+    "https://router.agentic-platform.staging.corp.mongodb.com/callback",
+    "https://kernal-one.agentic-platform.staging.corp.mongodb.com/api/me/connections/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
